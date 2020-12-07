@@ -1,4 +1,34 @@
+## Description
+
+- A full-stack web application using (Node.js, Express, React, Redux and MongoDB along with ES6+) to help developers build their profile/portfolio, share posts and get help from other developers Responsive front-end design done with Bootstrap
+
+## Technologies & Tools
+
+* React
+
+* Bootsrap
+
+* MongoDB
+
+* Node.JS
+
+* HTML
+
+* CSS 
+
 # Quick Start 🚀
+
+## Installation and Usage
+
+### Requirements:
+
+* Node.js installed
+
+### Steps:
+1. Clone repo on your local machine:
+```
+$ git clone https://github.com/phuongjay/DevConnector
+```
 
 ### Add a default.json file in config folder with the following
 
@@ -27,27 +57,6 @@ npm install
 
 ```bash
 npm run dev
-```
-
-### Build for production
-
-```bash
-cd client
-npm run build
-```
-
-### Test production before deploy
-
-After running a build in the client 👆, cd into the root of the project.  
-And run...
-
-Linux/Unix 
-```bash
-NODE_ENV=production node server.js
-```
-Windows Cmd Prompt or Powershell 
-```bash
-$env:NODE_ENV="production" node server.js
 ```
 
 Check in browser on [http://localhost:5000/](http://localhost:5000/)
