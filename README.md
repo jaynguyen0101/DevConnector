@@ -30,7 +30,7 @@
 $ git clone https://github.com/phuongjay/DevConnector
 ```
 
-### Add a default.json file in config folder with the following
+2. Add a default.json file in config folder with the following
 
 ```
 {
@@ -40,20 +40,20 @@ $ git clone https://github.com/phuongjay/DevConnector
 }
 ```
 
-### Install server dependencies
+3. Install server dependencies
 
 ```bash
 npm install
 ```
 
-### Install client dependencies
+4. Install client dependencies
 
 ```bash
 cd client
 npm install
 ```
 
-### Run both Express & React from root
+5. Run both Express & React from root
 
 ```bash
 npm run dev
